@@ -18,25 +18,25 @@ Students will be awarded up to 10 points for successfully completing this lab as
 
 3. Find the terminal window with the following and experiment with Linux commands:
 ```shell
-baochuan:~ $
+baochuan:~/workspace $
 ```
-You can maximize the terminal using [the maximize icon](/images/maximize@2x.png)
+You can maximize the terminal using ![the maximize icon](/images/maximize@2x.png)
 
 * Create a directory named CS2 using ```mkdir```, the "Make Directory" command.
 ```shell
-baochuan:~ $ mkdir CS2
+baochuan:~/workspace $ mkdir CS2
 ```
 
 
 * Now "list" your files and directories using the ```ls``` command.
 ```shell
-baochuan:~ $ ls
+baochuan:~/workspace $ ls
 ```
 
 *	Now, move to the CS2 directory using the "Change Directory" command, ```cd```.
 ```shell
-baochuan:~ $ cd CS2
-baochuan:~/CS2 $
+baochuan:~/workspace $ cd CS2
+baochuan:~/workspace/CS2 $
 ```
 Notice your "prompt" has changed to indicate you have moved to a new directory.  We would call CS2 our current directory.
 
