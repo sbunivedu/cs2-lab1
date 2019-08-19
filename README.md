@@ -18,18 +18,18 @@ Students will be awarded up to 10 points for successfully completing this lab as
 
 * Create a directory named CS2 using `mkdir`, the "Make Directory" command.
 ```shell
-blu@blu-GA-990FXA-UD5:~$ mkdir CS2
+[blu@cisone ~]$ mkdir CS2
 ```
 
 * Now "list" your files and directories using the `ls` command.
 ```shell
-blu@blu-GA-990FXA-UD5:~$ ls
+[blu@cisone ~]$ ls
 ```
 
 * Now, move to the CS2 directory using the "Change Directory" command, `cd`.
 ```shell
-blu@blu-GA-990FXA-UD5:~$ cd CS2/
-blu@blu-GA-990FXA-UD5:~/CS2$ 
+[blu@cisone ~]$ cd CS2/
+[blu@cisone CS2]$ 
 ```
 Notice your "prompt" has changed to indicate you have moved to a new directory.  We would call CS2 our current directory.
 
@@ -50,14 +50,14 @@ public class HelloWorld{
 
 To compile your program, you should use the Java compiler called `Javac`. The command is shown below:
 ```shell
-blu@blu-GA-990FXA-UD5:~/CS2/lab1$ javac HelloWorld.java
+[blu@cisone lab1]$ javac HelloWorld.java
 ```
 If everything is OK syntax-wise, you’ll be rewarded with another prompt.  If there are problems, Javac will try and tell you where they are in the code.  You’ll need to go and fix them before proceeding.
 
 Once your program compiles, Javac will produce a class file, which can be run.  See if you can find the class file with the list command.
 Now you are ready to run your program as shown below.
 ```shell
-blu@blu-GA-990FXA-UD5:~/CS2/lab1$ java HelloWorld  
+[blu@cisone lab1]$ java HelloWorld  
 Hello World!
 ```
 5. Practice
